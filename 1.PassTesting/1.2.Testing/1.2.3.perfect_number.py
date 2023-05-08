@@ -1,0 +1,1 @@
+print(*[y for y in range(1, int(input())) if sum([x for x in range(1, y) if y % x == 0]) == y])
